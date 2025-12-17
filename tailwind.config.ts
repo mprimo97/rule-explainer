@@ -46,6 +46,7 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+          highlight: "hsl(var(--card-highlight))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -57,6 +58,9 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "score-tempo": "hsl(var(--score-tempo))",
+        "score-produtividade": "hsl(var(--score-produtividade))",
+        "key-score": "hsl(var(--key-score))",
       },
       borderRadius: {
         lg: "var(--radius)",
